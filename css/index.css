@@ -1,0 +1,61 @@
+body {
+    line-height: 20px;
+    background-color: bisque;
+}
+
+div {
+    border: 2px solid black;
+    width: 550px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    background-color: darkcyan;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px;
+    color: white;
+    padding: 2px;  
+    outline-color: gray;
+    text-align: left;
+    margin: top 30px; 
+    text-shadow: 2px 2px 3px black;
+}
+
+img {
+    position: absolute;
+    bottom: 140px;
+    left: 630px;
+    max-width: 300px;
+    border: 50%;
+    outline-style: solid;
+    outline-color: grey;
+    margin-top: 10px;
+    float: right;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="file"]  {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: gray;
+}
+tr :hover {
+    background-color: cornsilk;
+}
