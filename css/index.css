@@ -12,20 +12,20 @@ div {
 
 h1 {
     background-color: darkcyan;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: "Courier New", Courier, monospace;
     font-size: 20px;
     color: white;
-    padding: 2px;  
+    padding: 2px;
     outline-color: gray;
     text-align: left;
-    margin: top 30px; 
+    margin: top 30px;
     text-shadow: 2px 2px 3px black;
 }
 
 img {
-    position: absolute;
-    bottom: 140px;
-    left: 630px;
+    position: relative;
+    bottom: 260px;
+    left: 1px;
     max-width: 300px;
     border: 50%;
     outline-style: solid;
@@ -39,7 +39,7 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="file"]  {
+input[type="file"] {
     cursor: pointer;
 }
 
@@ -48,14 +48,18 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
 }
-th, td {
+
+th,
+td {
     border: 1px solid black;
     padding: 10px;
     text-align: left;
 }
+
 th {
     background-color: gray;
 }
+
 tr :hover {
     background-color: cornsilk;
 }
